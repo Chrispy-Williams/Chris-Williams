@@ -1,0 +1,81 @@
+Here's a simple first page to practice with — it covers the core HTML elements (headings, paragraphs, links, images, lists) plus basic CSS, with comments explaining what each part does:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Page</title>
+  <style>
+    /* Basic page styling */
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #222;
+    }
+
+    h1 {
+      color: #C1121F;
+    }
+
+    a {
+      color: #1B1B18;
+    }
+
+    .highlight {
+      background: #F4D35E;
+      padding: 2px 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Headings: h1 is the biggest / most important, down to h6 -->
+  <h1>Hello, this is my first page</h1>
+
+  <!-- A paragraph of text -->
+  <p>
+    I'm learning HTML and CSS. This paragraph is just regular text,
+    but I can make words <strong>bold</strong> or
+    <em>italic</em> when I want emphasis.
+  </p>
+
+  <!-- A subheading -->
+  <h2>Things I'm learning</h2>
+
+  <!-- An unordered (bulleted) list -->
+  <ul>
+    <li>How to structure a page with HTML</li>
+    <li>How to style it with CSS</li>
+    <li>How to link to other pages</li>
+  </ul>
+
+  <!-- A link -->
+  <p>
+    Here's a link to <a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a>,
+    a great place to look things up.
+  </p>
+
+  <!-- An image (swap the src for your own) -->
+  <img src="https://placehold.co/400x200" alt="A placeholder image" width="400">
+
+  <!-- Using a CSS class -->
+  <p>This sentence has a <span class="highlight">highlighted</span> word.</p>
+
+</body>
+</html>
+```
+
+A few things worth trying once you've got this running:
+- Change the `<title>`, headings, and text to talk about yourself
+- Swap the placeholder image for a real one
+- Add a second `<h2>` section with its own list or paragraph
+- Try changing colors in the `<style>` block and see what breaks or improves
+
+To actually see it: paste this into a file named `index.html`, then just double-click it — it'll open in your browser, no server needed.
+
+Want me to turn this into a few small exercises (like "add a nav bar" or "make it two columns") so you can practice incrementally?
