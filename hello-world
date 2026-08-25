@@ -1,0 +1,29 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hello World</title>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    background-color: #F0EAD6; /* eggshell white */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  p {
+    color: green;
+    font-family: "Courier New", monospace;
+    font-size: 72pt;
+  }
+</style>
+</head>
+<body>
+  <p>Hello, World.</p>
+</body>
+</html>
+```
+
+Save this as an `.html` file and open it in a browser to see it. Let me know if you'd like the exact shade of green or eggshell adjusted.
